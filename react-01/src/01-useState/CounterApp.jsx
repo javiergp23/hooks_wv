@@ -11,6 +11,7 @@ export const CounterApp = () =>{
                 <h1>Counter1: { counter1 }</h1>
                 <hr />
                 <h2>Hola mundo</h2>
+                <h3>arreglo de componente</h3>
                 <button className="btn border-primary"  onClick={ () => setCounter( counter1 + 1) }>+1</button>
             </div>
         </>
